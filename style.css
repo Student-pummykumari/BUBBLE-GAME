@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color:lightskyblue;
+}
+
+.kid h1{
+    color: brown;
+    top: auto;
+    width: 100%;
+    height: 10px;
+    background-color:lightblue ;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.replay{
+    display: none;
+}
+
+.panel{
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.ptop{
+    width: 100%;
+   /* height: 100%;*/
+   height: 10%;
+    display: flex;
+    color: white;
+    padding: 10px;
+    align-items: center;
+    background-color: rgb(16, 248, 171);
+}
+
+.elem{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    width: 30%;
+    
+
+}
+
+.elem h2{
+    font-weight: 500;
+}
+
+.box{
+    padding: 0 30px;
+    display: flex;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    font-weight: 700;
+    
+}
+
+.pbtm{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 90%;
+    padding: 10px;
+}
+
+.bubble{
+ width: 50px;
+height: 50px;
+background-color: lightseagreen;
+color: white;
+border-radius: 50%;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+
+}
+
+.bubble:hover{
+    background-color: darkgreen;
+    cursor: pointer;
+}
+
+.ptt{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    color:black;
+    width: 100%;
+}
+
+.hh{
+    text-align: end;
+    color: chocolate;
+    text-decoration: solid;
+    align-items: end;
+}
